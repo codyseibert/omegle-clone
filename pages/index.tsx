@@ -102,7 +102,7 @@ async function connectToAgoraRtc(
       }
       if (mediaType === "audio") {
         onAudioConnect(themUser.audioTrack);
-        // themUser.audioTrack?.play();
+        themUser.audioTrack?.play();
       }
     });
   });
