@@ -178,6 +178,7 @@ export default function Home() {
     setThemAudio(undefined);
     setThemVideo(undefined);
     setMyVideo(undefined);
+    setMessages([]);
 
     if (channelRef.current) {
       await channelRef.current.leave();
