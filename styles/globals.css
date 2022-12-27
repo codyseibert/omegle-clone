@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +104,30 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.chat-window {
+  display: flex;
+  gap: 50px;
+}
+
+.video-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.video-stream {
+  width: 200px;
+  height: 160px;
+  background: white;
+}
+
+.chat-panel {
+  background: white;
+  color: black;
+  padding: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
 }
